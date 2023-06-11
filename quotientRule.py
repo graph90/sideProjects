@@ -1,4 +1,3 @@
-# solve using the quotient rule
 def quotientRule(x):
     if x < 0:
         return 1 / (x - 2)
