@@ -1,4 +1,3 @@
-# solve a quadratic equation in python
 import math
 def solveQuadratic(a,b,c):
     if a==0:
