@@ -1,4 +1,4 @@
-# take the user input and solve the piecewise function
+
 def solvePiecewise(x):
     if x < -2:
         return 4 * x + 5
