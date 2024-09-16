@@ -1,4 +1,4 @@
-# solve cubic equation in python
+
 import math
 def solveCubic(a,b,c,d):
     if a==0:
