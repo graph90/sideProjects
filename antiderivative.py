@@ -8,10 +8,7 @@ def antiDerivative(x):
     else:
         return x ** 3 / 3
 def main():
-    # get user input
     x = float(input("Enter a value for x: "))
-    # take the antiderivative
     y = antiDerivative(x)
-    # print the result
     print("y =", y)
 main()
