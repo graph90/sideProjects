@@ -1,9 +1,6 @@
-# using a command line argument to convert USD to CAD and print to the console
-
 import os
 import sys
 def main():
-    # take USD as a command line argument and convert it to CAD and print to console
     if len(sys.argv) != 2:
         print('Usage: python usdToCad.py <amount in USD>')
         sys.exit(1)
