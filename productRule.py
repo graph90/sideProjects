@@ -7,10 +7,7 @@ def solveProductRule(x):
     else:
         return math.sqrt(x)
 def main():
-    # get user input
     x = float(input("Enter a value for x: "))
-    # solve the product rule
     y = solveProductRule(x)
-    # print the result
     print("y =", y)
 main()
