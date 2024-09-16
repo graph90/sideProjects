@@ -1,4 +1,3 @@
-# sovle a linear equation in python
 import math
 
 def solveLinear(a,b):
