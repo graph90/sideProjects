@@ -7,10 +7,7 @@ def solvePiecewise(x):
     else:
         return x / 2 - 1
 def main():
-    # get the user input
     x = float(input("Enter a value for x: "))
-    # solve the piecewise function
     y = solvePiecewise(x)
-    # print the result
     print("y =", y)
 main()
