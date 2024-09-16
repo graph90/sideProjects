@@ -1,6 +1,5 @@
 english_text = input("Enter the English text to be converted to Ancient Greek: ")
 
-# Define a dictionary with the character mapping
 greek_map = {
     'a': 'α',
     'b': 'β',
@@ -30,8 +29,6 @@ greek_map = {
     'z': 'ζ',
     ' ': ' '
 }
-
-# Convert the English text to Ancient Greek using the character mapping
 greek_text = ''
 for char in english_text:
     if char.lower() in greek_map:
@@ -39,5 +36,4 @@ for char in english_text:
     else:
         greek_text += char
 
-# Print the result
 print("The Ancient Greek equivalent is: ", greek_text)
