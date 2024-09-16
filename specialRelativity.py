@@ -1,4 +1,3 @@
-# python special relativity equation
 def specialRelativity(v,c):
     if v==0:
         return 0
