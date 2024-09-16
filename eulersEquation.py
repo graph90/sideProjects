@@ -1,4 +1,3 @@
-# python eulers equation V-E+F=2
 
 def eulersEquation(V,E,F):
     if V==0:
