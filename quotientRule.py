@@ -6,10 +6,7 @@ def quotientRule(x):
     else:
         return 1 / (x - 1)
 def main():
-    # get user input
     x = float(input("Enter a value for x: "))
-    # solve using the quotient rule
     y = quotientRule(x)
-    # print the result
     print("y =", y)
 main()
