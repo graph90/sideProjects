@@ -21,7 +21,7 @@ This repository contains various Python and C++ scripts for solving a wide range
 - `rnn.py`: Recurrent Neural Network (RNN) implementation.
 - `lstm.py`: Long Short-Term Memory (LSTM) neural network.
 
-## Mathematical Computations
+## Math Computations
 
 - `addTwoNumbersInBaseFourTeen.py`: Function to add two numbers in base-14.
 - `addTwoPolynomials.py`: Add two polynomials represented as lists.
