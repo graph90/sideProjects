@@ -1,4 +1,4 @@
-# python lagrange range
+
 import math
 def lagrangeRange(a,b,c):
     if a==0:
