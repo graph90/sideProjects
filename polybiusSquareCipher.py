@@ -1,4 +1,3 @@
-# Python Program to implement polybius cipher
 def polybiusCipher(s):
         for char in s:
                 row = int((ord(char) - ord('a')) / 5) + 1
@@ -12,8 +11,6 @@ def polybiusCipher(s):
                             row = row - 1
                         col = col - 1
                 print(row, col, end ='', sep ='')
-# Driver's Code
 if __name__ == "__main__":
- 
-        s = "testingNate"
+        s = "testing"
         polybiusCipher(s)
