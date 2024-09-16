@@ -7,10 +7,7 @@ def chainRule(x):
     else:
         return math.log(x + 3)
 def main():
-    # get user input
     x = float(input("Enter a value for x: "))
-    # solve using the chain rule
     y = chainRule(x)
-    # print the result
     print("y =", y)
 main()
