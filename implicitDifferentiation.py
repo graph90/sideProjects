@@ -8,10 +8,7 @@ def implicitDifferentiation(x):
     else:
         return 1 / (math.sqrt(x + 3) * (x + 3))
 def main():
-    # get user input
     x = float(input("Enter a value for x: "))
-    # solve using implicit differentiation
     y = implicitDifferentiation(x)
-    # print the result
     print("y =", y)
 main()
