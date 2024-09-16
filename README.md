@@ -1,4 +1,4 @@
-# Python & C++ Utilities and Mathematical Scripts
+# Python & C++ Utilities and Math Scripts
 
 This repository contains various Python and C++ scripts for solving a wide range of problems including machine learning algorithms, mathematical computations, cryptography, and more. The collection covers topics from computer science, mathematics, physics, and data processing.
 
