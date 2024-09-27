@@ -19,7 +19,6 @@ def draw_tree(x, y, length, angle, depth):
         print('\033[92m*\033[0m', end='')
         time.sleep(0.005)
     print()
-
     draw_tree(x_end, y_end, length*0.7, angle-20, depth-1)
     draw_tree(x_end, y_end, length*0.7, angle+20, depth-1)
 
